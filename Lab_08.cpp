@@ -3,6 +3,7 @@ using namespace std;
 class DB;
 class DM
 {
+    //declare data member or variables 
     float meter, centi;
 
 public:
