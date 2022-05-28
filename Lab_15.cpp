@@ -7,27 +7,27 @@ public:
     string name;
     int weight;
     Animal(){};
-    Animal(string nam, int wei)
+    Animal(string n, int w)
     {
-        name = nam;
-        weight = wei;
+        name = n;
+        weight = w;
     };
 };
 class Pet
 {
 public:
-    Animal cat;
+    Animal Dog;
     void petHelth()
     {
         cout << "Enter the Name of the pet " << endl;
-        getline(cin, cat.name);
+        getline(cin, Dog.name);
         cout << "Enter the weight of pet " << endl;
-        cin >> cat.weight;
+        cin >> Dog.weight;
     };
     void Display()
     {
-        cout << "Name of the Pet is  " << cat.name << endl;
-        cout << "The weight of the pet is  " << cat.weight << endl;
+        cout << "Name of the Pet is  " << Dog.name << endl;
+        cout << "The weight of the pet is  " << Dog.weight << endl;
     };
 };
 int main(int argc, char const *argv[])

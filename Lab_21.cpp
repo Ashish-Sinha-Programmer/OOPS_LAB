@@ -1,4 +1,4 @@
-/* Program to copy conent of one file to the end of another file */
+/* Program to copy content of one file to the end of another file */
 #include <iostream>
 #include <fstream>
 #include <string>

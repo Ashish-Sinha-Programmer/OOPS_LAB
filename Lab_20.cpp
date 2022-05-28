@@ -37,7 +37,7 @@ int main()
     fstream file;
     int i;
 
-    file.open("D:\\Program Files\\collage lab\\OOPs\\lab020.txt", ios ::out); // open file for writing
+    file.open("D:\\#Acedmics\\OOPs Lab\\lab020.txt", ios ::out); // open file for writing
     cout << "Writing Student information to the file" << endl;
     cout << "Enter students Details to the File" << endl;
 
@@ -49,7 +49,7 @@ int main()
 
     file.close(); // close the file
 
-    file.open("D:\\Program Files\\collage lab\\OOPs\\lab020.txt", ios ::in); // open file for reading
+    file.open("D:\\#Acedmics\\OOPs Lab\\lab020.txt", ios ::in); // open file for reading
     cout << "Reading Student information to the file" << endl;
 
     for (i = 0; i < count; i++)
